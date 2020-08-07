@@ -11,10 +11,16 @@ public class calculator {
 	    dif = a-b;
 	    return dif;
 	  }
+	public static int prod(int a, int b){
+		int mul =1;
+	    mul = a*b;
+	    return mul;
+	  }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.print(add(3,5));
-		System.out.print(sub(30,5));
+		System.out.println(add(3,5));
+		System.out.println(sub(30,5));
+		System.out.println(prod(30,5));
 	}
 
 }
